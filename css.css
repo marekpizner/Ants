@@ -1,0 +1,41 @@
+#mainDiv
+{
+  width: 100%;
+  float: center;
+}
+
+input[type="button"]
+{
+  float: center;
+
+}
+table, tr, td
+{
+  border: 1px solid white;
+}
+td
+{
+  width: 30px;
+  text-align: center
+}
+
+
+#black
+{
+  background: black;
+  color: white;
+  float: left;
+  display: inline-table;
+  margin: 100px auto;
+
+}
+
+#red
+{
+  background: red;
+  color: white;
+  float: right;
+  display: inline-table;
+  margin: 100px auto;
+
+}
