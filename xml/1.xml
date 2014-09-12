@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card>
+  <name>+1Brick</name>
+  <item>Brick</item>
+  <value type="xs:integer">1</value>
+</card>
