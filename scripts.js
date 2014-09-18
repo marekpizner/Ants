@@ -68,7 +68,7 @@ function Card(x)
   var WeaponsRR = xmlDoc.getElementsByTagName("WeaponsR")[0].childNodes[0].nodeValue;
   var WizardsRR = xmlDoc.getElementsByTagName("WizardsR")[0].childNodes[0].nodeValue;
   var CrystalsRR = xmlDoc.getElementsByTagName("CrystalsR")[0].childNodes[0].nodeValue;
-
+  alert(BuildersRR + " :: " + BricksRR + " :: " + SoldiersRR + " :: " + WeaponsRR );
   var BuildersAdd = xmlDoc.getElementsByTagName("BuildersAdd")[0].childNodes[0].nodeValue;
   var BricksAdd = xmlDoc.getElementsByTagName("BricksAdd")[0].childNodes[0].nodeValue;
   var SoldiersAdd = xmlDoc.getElementsByTagName("SoldiersAdd")[0].childNodes[0].nodeValue;
