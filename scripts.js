@@ -62,7 +62,7 @@ function Card(x)
     xmlDoc=xhttp.responseXML;
 
 
-  var BuildersRR = xmlDoc..querySelector("[id=" + id+ "]");
+  var BuildersRR = xmlDoc.getElementsByTagName("BuildersR")[0].childNodes[0].nodeValue;
   var BricksRR = xmlDoc.getElementsByTagName("BricksR")[0].childNodes[0].nodeValue;
   var SoldiersRR = xmlDoc.getElementsByTagName("SoldiersR")[0].childNodes[0].nodeValue;
   var WeaponsRR = xmlDoc.getElementsByTagName("WeaponsR")[0].childNodes[0].nodeValue;
@@ -98,27 +98,27 @@ function Card(x)
       WeaponsB = Number(WeaponsB) - Number(WeaponsRR);
       CrystalsB = Number(CrystalsB) - Number(CrystalsRR);
 
-      BuildersB = Number(BuildersB) = Number(BuildersAdd);
-      BricksB = Number(BricksB) = Number(BricksAdd);
-      SoldiersB = Number(SoldiersB) = Number(SoldiersAdd);
-      WeaponsB = Number(WeaponsB) = Number(WeaponsAdd);
-      WizardsB = Number(WizardsB) = Number(WizardsAdd);
-      CrystalsB = Number(CrystalsB) = Number(CrystalsAdd);
-      CastleB = Number(CastleB) = Number(CastleAdd);
-      WallsB = Number(WallsB) = Number(WallsAdd);
+      BuildersB = Number(BuildersB) + Number(BuildersAdd);
+      BricksB = Number(BricksB) + Number(BricksAdd);
+      SoldiersB = Number(SoldiersB) + Number(SoldiersAdd);
+      WeaponsB = Number(WeaponsB) + Number(WeaponsAdd);
+      WizardsB = Number(WizardsB) + Number(WizardsAdd);
+      CrystalsB = Number(CrystalsB) + Number(CrystalsAdd);
+      CastleB = Number(CastleB) + Number(CastleAdd);
+      WallsB = Number(WallsB) + Number(WallsAdd);
 
-      BuildersR = Number(BuildersR) = Number(BuildersE);
-      BricksR = Number(BricksR) = Number(BricksE);
-      SoldiersR = Number(SoldiersR) = Number(SoldiersE);
-      WeaponsR = Number(WeaponsR) = Number(WeaponsE);
-      WizardsR = Number(WizardsR) = Number(WizardsE);
-      CrystalsR = Number(CrystalsR) = Number(CrystalsE);
-      CastelR = Number(CastleR) = Number(CastleE);
-      WallsR = Number(WallsR) = Number(WallsE);
+      BuildersR = Number(BuildersR) + Number(BuildersE);
+      BricksR = Number(BricksR) + Number(BricksE);
+      SoldiersR = Number(SoldiersR) + Number(SoldiersE);
+      WeaponsR = Number(WeaponsR) + Number(WeaponsE);
+      WizardsR = Number(WizardsR) + Number(WizardsE);
+      CrystalsR = Number(CrystalsR) + Number(CrystalsE);
+      CastelR = Number(CastleR) + Number(CastleE);
+      WallsR = Number(WallsR) + Number(WallsE);
 
-      WallsR = Number(WallsR) = Number(AttackE);
+      WallsR = Number(WallsR) - Number(AttackE);
       if(Number(WallsR) < 0){
-        CastleR = Number(CastleR) = Number(WallstR);
+        CastleR = Number(CastleR) - Number(WallstR);
         Number(WallsR) = 0;
       }
     }else{
@@ -129,31 +129,31 @@ function Card(x)
 
         if((Number(BricksR) >= Number(BricksRR)) && (Number(WeaponsR) >= Number(WeaponsRR)) && (Number(CrystalsR) >= Number(CrystalsRR)))
         {
-          BricksR = Number(BricksR) = Number(BricksRR);
-          WeaponsR = Number (WeaponsR) = Number (WeaponsRR);
-          CrystalsR = Number (CrystalsR) = Number (CrystalsRR);
+          BricksR = Number(BricksR) - Number(BricksRR);
+          WeaponsR = Number (WeaponsR) - Number (WeaponsRR);
+          CrystalsR = Number (CrystalsR) - Number (CrystalsRR);
 
-          BuildersR = Number(BuildersR) = Number(BuildersAdd);
-          BricksR = Number(BricksR) = Number(BricksAdd);
-          SoldiersR = Number(SoldiersR) = Number(SoldiersAdd);
-          WeaponsR = Number(WeaponsR) = Number(WeaponsAdd);
-          WizardsR = Number(WizardsR) = Number(WizardsAdd);
-          CrystalsR = Number(CrystalsR) = Number(CrystalsAdd);
-          CastleR = Number(CastleR) = Number(CastleAdd);
-          WallsR = Number(WallsR) = Number(WallsAdd);
+          BuildersR = Number(BuildersR) + Number(BuildersAdd);
+          BricksR = Number(BricksR) + Number(BricksAdd);
+          SoldiersR = Number(SoldiersR) + Number(SoldiersAdd);
+          WeaponsR = Number(WeaponsR) + Number(WeaponsAdd);
+          WizardsR = Number(WizardsR) + Number(WizardsAdd);
+          CrystalsR = Number(CrystalsR) + Number(CrystalsAdd);
+          CastleR = Number(CastleR) + Number(CastleAdd);
+          WallsR = Number(WallsR) + Number(WallsAdd);
 
-          BuildersB = Number(BuildersB) = Number(BuildersE);
-          BricksB = Number(BricksB) = Number(BricksE);
-          SoldiersB = Number(SoldiersB) = Number(SoldiersE);
-          WeaponsB = Number(WeaponsB) = Number(WeaponsE);
-          WizardsB = Number(WizardsB) = Number(WizardsE);
-          CrystalsB = Number(CrystalsB) = Number(CrystalsE);
-          CastleB = Number(CastleB) = Number(CastleE);
-          WallsB = Number(WallsB) = Number(WallsE);
+          BuildersB = Number(BuildersB) + Number(BuildersE);
+          BricksB = Number(BricksB) + Number(BricksE);
+          SoldiersB = Number(SoldiersB) + Number(SoldiersE);
+          WeaponsB = Number(WeaponsB) + Number(WeaponsE);
+          WizardsB = Number(WizardsB) + Number(WizardsE);
+          CrystalsB = Number(CrystalsB) + Number(CrystalsE);
+          CastleB = Number(CastleB) + Number(CastleE);
+          WallsB = Number(WallsB) + Number(WallsE);
 
-          WallsB = Number(WallsB) = Number(AttackE);
+          WallsB = Number(WallsB) - Number(AttackE);
           if(Number(WallsB) < 0){
-            CastleB = Number(CastleB) = Number(WallstR);
+            CastleB = Number(CastleB) - Number(WallstR);
             Number(WallsR) = 0;
           }
         }else{
