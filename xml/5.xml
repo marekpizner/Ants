@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Caruj cihly -->
+<card >
+  <BuildersR type="xs:integer">0</BuildersR>
+  <BricksR type="xs:integer">0</BricksR>
+  <SoldiersR type="xs:integer">0</SoldiersR>
+  <WeaponsR type="xs:integer">0</WeaponsR>
+  <WizardsR type="xs:integer">0</WizardsR>
+  <CrystalsR type="xs:integer">4</CrystalsR>
+  <CastleR type="xs:integer">0</CastleR>
+  <WallsR type="xs:integer">0</WallsR>
+  <AttackR type="xs:integer">0</AttackR>
+
+  <BuildersAdd type="xs:integer">0</BuildersAdd>
+  <BricksAdd type="xs:integer">8</BricksAdd>
+  <SoldiersAdd type="xs:integer">0</SoldiersAdd>
+  <WeaponsAdd type="xs:integer">0</WeaponsAdd>
+  <WizardsAdd type="xs:integer">0</WizardsAdd>
+  <CrystalsAdd type="xs:integer">0</CrystalsAdd>
+  <CastleAdd type="xs:integer">0</CastleAdd>
+  <WallsAdd type="xs:integer">0</WallsAdd>
+  <AttackAdd type="xs:integer">0</AttackAdd>
+
+  <BuildersE type="xs:integer">0</BuildersE>
+  <BricksE type="xs:integer">0</BricksE>
+  <SoldiersE type="xs:integer">0</SoldiersE>
+  <WeaponsE type="xs:integer">0</WeaponsE>
+  <WizardsE type="xs:integer">0</WizardsE>
+  <CrystalsE type="xs:integer">0</CrystalsE>
+  <CastleE type="xs:integer">0</CastleE>
+  <WallsE type="xs:integer">0</WallsE>
+  <AttackE type="xs:integer">0</AttackE>
+</card>

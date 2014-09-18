@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Carodej -->
+<card>
+  <Builders type="xs:integer">0</Builders>
+  <Bricks type="xs:integer">0</Bricks>
+  <Soldiers type="xs:integer">0</Soldiers>
+  <Weapons type="xs:integer">0</Weapons>
+  <Wizards type="xs:integer">0</Wizards>
+  <Crystals type="xs:integer">8</Crystals>
+  <Castle type="xs:integer">0</Castle>
+  <Walls type="xs:integer">0</Walls>
+  <Attack type="xs:integer">0</Attack>
+
+  <Builders type="xs:integer">0</Builders>
+  <Bricks type="xs:integer">0</Bricks>
+  <Soldiers type="xs:integer">0</Soldiers>
+  <Weapons type="xs:integer">0</Weapons>
+  <Wizards type="xs:integer">1</Wizards>
+  <Crystals type="xs:integer">0</Crystals>
+  <Castle type="xs:integer">0</Castle>
+  <Walls type="xs:integer">0</Walls>
+  <Attack type="xs:integer">0</Attack>
+
+  <Builders type="xs:integer">0</Builders>
+  <Bricks type="xs:integer">0</Bricks>
+  <Soldiers type="xs:integer">0</Soldiers>
+  <Weapons type="xs:integer">0</Weapons>
+  <Wizards type="xs:integer">0</Wizards>
+  <Crystals type="xs:integer">0</Crystals>
+  <Castle type="xs:integer">0</Castle>
+  <Walls type="xs:integer">0</Walls>
+  <Attack type="xs:integer">0</Attack>
+</card>

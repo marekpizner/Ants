@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Caruj krystaly -->
-<card>
+<!-- Stritci -->
+<card >
   <BuildersR type="xs:integer">0</BuildersR>
   <BricksR type="xs:integer">0</BricksR>
   <SoldiersR type="xs:integer">0</SoldiersR>
   <WeaponsR type="xs:integer">0</WeaponsR>
   <WizardsR type="xs:integer">0</WizardsR>
-  <CrystalsR type="xs:integer">4</CrystalsR>
+  <CrystalsR type="xs:integer">22</CrystalsR>
   <CastleR type="xs:integer">0</CastleR>
   <WallsR type="xs:integer">0</WallsR>
   <AttackR type="xs:integer">0</AttackR>
@@ -16,8 +16,8 @@
   <SoldiersAdd type="xs:integer">0</SoldiersAdd>
   <WeaponsAdd type="xs:integer">0</WeaponsAdd>
   <WizardsAdd type="xs:integer">0</WizardsAdd>
-  <CrystalsAdd type="xs:integer" >8</CrystalsAdd>
-  <CastleAdd type="xs:integer">0</CastleAdd>
+  <CrystalsAdd type="xs:integer">0</CrystalsAdd>
+  <CastleAdd type="xs:integer">22</CastleAdd>
   <WallsAdd type="xs:integer">0</WallsAdd>
   <AttackAdd type="xs:integer">0</AttackAdd>
 
