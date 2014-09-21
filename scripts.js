@@ -198,8 +198,8 @@ function Card(x)
 
       WallsR = Number(WallsR) - Number(AttackE);
       if(Number(WallsR) < 0){
-        CastleR = Number(CastleR) - Number(WallstR);
-        Number(WallsR) = 0;
+        CastleR = Number(CastleR) - Number(WallsR);
+        WallsR = 0;
       }
     }
 
@@ -279,8 +279,8 @@ function Card(x)
 
           WallsB = Number(WallsB) - Number(AttackE);
           if(Number(WallsB) < 0){
-            CastleB = Number(CastleB) - Number(WallstR);
-            Number(WallsR) = 0;
+            CastleB = Number(CastleB) - Number(WallsR);
+            WallsR = 0;
           }
         }
       }

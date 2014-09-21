@@ -19,7 +19,7 @@
     <SoldiersAdd type="xs:integer">0</SoldiersAdd>
     <WeaponsAdd type="xs:integer">0</WeaponsAdd>
     <WizardsAdd type="xs:integer">0</WizardsAdd>
-    <CrystalsAdd type="xs:integer">4</CrystalsAdd>
+    <CrystalsAdd type="xs:integer">0</CrystalsAdd>
     <CastleAdd type="xs:integer">0</CastleAdd>
     <WallsAdd type="xs:integer">0</WallsAdd>
     <AttackAdd type="xs:integer">0</AttackAdd>

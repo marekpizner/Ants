@@ -4,7 +4,7 @@
   <BuildersR type="xs:integer">0</BuildersR>
   <BricksR type="xs:integer">10</BricksR>
   <SoldiersR type="xs:integer">0</SoldiersR>
-  <WeaponsR type="xs:integer">10</WeaponsR>
+  <WeaponsR type="xs:integer">0</WeaponsR>
   <WizardsR type="xs:integer">0</WizardsR>
   <CrystalsR type="xs:integer">0</CrystalsR>
   <CastleR type="xs:integer">0</CastleR>
@@ -27,7 +27,7 @@
   <WeaponsE type="xs:integer">0</WeaponsE>
   <WizardsE type="xs:integer">0</WizardsE>
   <CrystalsE type="xs:integer">0</CrystalsE>
-  <CastleE type="xs:integer">0</CastleE>
+  <CastleE type="xs:integer">-4</CastleE>
   <WallsE type="xs:integer">0</WallsE>
-  <AttackE type="xs:integer">4</AttackE>
+  <AttackE type="xs:integer">0</AttackE>
 </card>
