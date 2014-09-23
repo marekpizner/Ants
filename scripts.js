@@ -326,6 +326,7 @@ function RandomPicture()
 
 function StartGame()
 {
+	Count=0;
   BuildersB = 2;
   BricksB = 8;
 
